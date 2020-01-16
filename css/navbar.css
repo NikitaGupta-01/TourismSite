@@ -1,0 +1,64 @@
+		body{
+				margin: 0;
+				background: #222;
+				font-family: 'Work Sans',sans-serif;
+				font-weight: 300;
+			}
+
+			.container-fluid{
+				width: 100%;
+				margin: 0;
+			}
+			header{
+				
+			}
+			.logo{
+				float: left;
+				padding:10px 0;
+			}
+			nav
+			{
+				float: center;
+				background-image: linear-gradient(black,dimgrey); 
+			}
+			nav ul{
+				margin: 0 auto;
+				padding: 0px;
+			}
+			nav li{
+				display: inline-block;
+				margin-left: 51px;
+				margin-right: 0px;
+				padding: 10px;
+				position: relative;
+			}
+			  	a{
+				color: white;
+				font-size: 15px;
+			}
+			 #a{
+				color: white;
+				font-size: 15px;
+			}
+			#a:hover{
+				color: lightyellow;
+			}
+			#a::before{
+				content: '';
+				display: block;
+				height: 2px;
+				background-color: red;
+				margin:5px auto;
+				position:center;
+				top: 0;
+				width: 0%;
+				transition:all ease-in-out 25ms;
+			}
+			#a:hover::before{
+				width: 100%;
+			}
+			h2{
+				color: lightyellow;
+				font-size: 50px;
+			}
+			
